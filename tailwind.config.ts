@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+     
+      gridTemplateColumns: {
+        layout: '1fr 2fr 2fr', // Sidebar, Content 1, Content 2 & 3
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
